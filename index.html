@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+    <script src="./index.js" defer></script>
+    <title>Транслит</title>
+  </head>
+  <body>
+    <header>
+      <div>T.R.A.N.S.L.I.T.</div>
+    </header>
+    <main>
+      <form action="#" name="transliterator" id="transliterator">
+        <input type="text" name="input_window" placeholder="Начните вводить текст" />
+        <button type="submit" class="add">Добавить</button>
+      </form>
+      <article>
+        <ul class="ru_list">
+          <li class="ru_word" data-number="1">Привет 👋</li>
+        </ul>
+        <ul class="en_list">
+          <li class="en_word" data-number="1">Privet <img src="img/Group 1.svg" alt="icon" /></li>
+        </ul>
+      </article>
+      <button class="clear"><img src="img/Group 1.svg" alt="icon" />Очистить всё!</button>
+    </main>
+  </body>
+</html>
